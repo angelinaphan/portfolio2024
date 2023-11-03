@@ -2,6 +2,12 @@ body {
     background-color: #42496D;
     margin: 0;
 }
+/* icon */
+.iconn {
+    height: 500%;
+    width: 500%;
+}
+
 
 /* nav bar */
 .topnav {
@@ -15,7 +21,8 @@ body {
     color: #FFF8E8;
     text-align: center;
     padding-top: 20px;
-    padding-right: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
     text-decoration: none;
     font-size: 5px;
 }
@@ -73,6 +80,13 @@ body {
     padding-top: 20px;
 }
 
-.text1, .text2, .text3 {
-    padding-left: 50px;
+.text4 {
+    color: #FFFDFA;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.text1, .text2, .text3, .text4 {
+    padding-left: 30px;
 }
