@@ -97,8 +97,8 @@ body {
     height: 40vh;
     user-select: none;
     gap: 10rem;
-    padding-top: 11rem;
-    padding-bottom: 11rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .marquee-group {
@@ -124,4 +124,34 @@ body {
     to {
         transform: translateX(calc(-100% - 2rem));
     }
+}
+
+/* abt */
+.text5 {
+    color: #C29B7C;
+    font-size: 55px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.text6 {
+    color: #E6D1BE;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #FFF8E8;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.text7, .text8 {
+    color: #FFFDFA;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.text7, .text8 {
+    padding-left: 115px;
+}
+
+.text8 {
+    padding-right: 50px;
 }
