@@ -1,6 +1,7 @@
 body {
     background-color: #42496D;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -87,4 +88,40 @@ body {
 /* about me */
 .container-fluid2 {
     background-color: #C1CEC1;
+}
+
+/* bow */
+.marquee {
+    display: flex;
+    overflow: hidden;
+    height: 40vh;
+    user-select: none;
+    gap: 10rem;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+
+.marquee-group {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    min-width: 100%;
+    animation: scroll 15s linear infinite;
+}
+
+.marquee-group span {
+    font-size: 7vw;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 2rem));
+    }
 }
