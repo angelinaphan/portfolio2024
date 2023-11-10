@@ -15,6 +15,7 @@ body {
 /* nav bar */
 .topnav {
     overflow: hidden;
+    top: 0;
     position: fixed;
     background-color: #42496D;
     display: block;
@@ -86,19 +87,37 @@ body {
 }
 
 /* about me */
-.container-fluid2 {
-    background-color: #C1CEC1;
+@keyframes Rotate
+{from { transform: rotate(0deg); }
+ to { transform: rotate(4deg); }
+}
+
+.moon {
+    animation: Rotate 1s linear infinite; 
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+@keyframes rotation
+    {from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+   }
+
+.star {
+    animation: rotation 8s linear infinite; 
+}
+
+.star1 {
+    margin-left: -500;
 }
 
 /* bow */
 .marquee {
     display: flex;
-    overflow: hidden;
     height: 40vh;
     user-select: none;
     gap: 10rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 .marquee-group {
@@ -129,29 +148,30 @@ body {
 /* abt */
 .text5 {
     color: #C29B7C;
-    font-size: 55px;
-    padding-top: 20px;
+    font-size: 60px;
+    padding-top: 120px;
     text-align: center;
 }
 
 .text6 {
     color: #E6D1BE;
-    font-size: 40px;
+    font-size: 55px;
     text-shadow: 2px 2px 2px #FFF8E8;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .text7, .text8 {
-    color: #FFFDFA;
-    font-size: 25px;
+    color: #FFF8E8;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 
-.text7, .text8 {
+.text7 {
     padding-left: 115px;
 }
 
 .text8 {
-    padding-right: 50px;
+    padding-right: 75px;
 }
