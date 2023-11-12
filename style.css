@@ -44,6 +44,13 @@ body {
     color: #E6D1BE;
 }
 
+.topnav a.link {
+    color: #FFF8E8;
+}
+
+.vis:visited {
+    color: #FFF8E8;
+}
 
 /* text | logo in head */
 .text1 {
@@ -65,7 +72,7 @@ body {
 }
 
 .text4 {
-    color: #FFFDFA;
+    color: #FFF8E8;
     font-size: 25px;
     padding-top: 20px;
     padding-right: 100px;
@@ -94,8 +101,7 @@ body {
 
 .moon {
     animation: Rotate 1s linear infinite; 
-    padding-top: 60px;
-    padding-left: 20px;
+    text-align: center;
 }
 
 @keyframes rotation
@@ -103,18 +109,42 @@ body {
     to { transform: rotate(360deg); }
    }
 
-.star {
+.stars {
     animation: rotation 8s linear infinite; 
 }
 
-.star1 {
-    margin-left: -500;
+
+.star {
+    padding-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+@keyframes rotates 
+{from { transform: rotate(0deg); }
+to { transform: rotate(15deg); }
+}
+
+.heart {
+    padding-left: 230px;
+    margin-top: -70px;
+    animation: rotates 3s linear infinite; 
+}
+
+.circle {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+.circle1 {
+    padding-left: 350px;
+    margin-top: -45px;
 }
 
 /* bow */
 .marquee {
     display: flex;
-    height: 40vh;
+    height: 35vh;
     user-select: none;
     gap: 10rem;
     padding-top: 1rem;
@@ -149,7 +179,7 @@ body {
 .text5 {
     color: #C29B7C;
     font-size: 60px;
-    padding-top: 120px;
+    padding-top: 110px;
     text-align: center;
 }
 
@@ -173,5 +203,122 @@ body {
 }
 
 .text8 {
+    padding-right: 75px;
+}
+
+/* education */
+.text9 {
+    color: #42496D;
+    text-shadow: 2px 2px 2px #FFF8E8;
+    font-size: 60px;
+    padding-top: 110px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.text10 {
+    color: #FFF8E8;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.text11 {
+    color: #E6D1BE;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px #FFF8E8;
+}
+
+
+/* work */
+container-fluid3 {
+    padding-left: 50px;
+    text-align: center;
+}
+
+.text13 h4 {
+    color: #42496d;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text13 a:hover {
+    text-decoration: none;
+    color: #CED9E6;
+    text-align: center;
+}
+
+.text13 a {
+    color: #42496d;
+    font-size: 40px;
+    text-decoration: none;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.text12 {
+    color: #FFF8E8;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px #FFFDFA;
+}
+
+/* education */
+.text14 {
+    color: #FFF8E8;
+    text-shadow: 2px 2px 2px #FFFDFA;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.progress-bar {
+    padding-top: 20px;
+    background-color: #FFFDFA;
+}
+
+.pro21 {
+    padding-left: 115px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+
+.text15 {
+    color: #FFFDFA; 
+    font-size: 35px;
+    padding-left: 115px;
+    padding-bottom: 5px;
+}
+
+.text16 {
+    color: #FFF8E8;
+    text-shadow: 2px 2px 2px #FFFDFA;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bord {
+    border-left: 1px solid #FFFDFA;
+}
+
+.list {
+    color: #FFFDFA;
+    padding-left: 115px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.list1 {
+    color: #FFFDFA;
+    padding-left: 115px;
+    font-size: 35px;
     padding-right: 75px;
 }
