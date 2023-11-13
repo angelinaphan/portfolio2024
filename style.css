@@ -312,13 +312,9 @@ container-fluid3 {
 .list {
     color: #FFFDFA;
     padding-left: 115px;
-    padding-bottom: 20px;
     font-size: 35px;
 }
 
-.list1 {
-    color: #FFFDFA;
-    padding-left: 115px;
-    font-size: 35px;
-    padding-right: 75px;
+.list h1 {
+    padding-bottom: 20px;
 }
