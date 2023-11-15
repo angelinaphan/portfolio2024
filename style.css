@@ -44,14 +44,6 @@ body {
     color: #E6D1BE;
 }
 
-.topnav a.link {
-    color: #FFF8E8;
-}
-
-.vis:visited {
-    color: #FFF8E8;
-}
-
 /* text | logo in head */
 .text1 {
     color: #CED9E6;
@@ -317,4 +309,29 @@ container-fluid3 {
 
 .list h1 {
     padding-bottom: 20px;
+}
+
+
+/* contact */
+.text20, .text21 {
+    text-align: center;
+}
+
+.text20 {
+    color: #42496D;
+    font-size: 60px;
+    padding-top: 230px;
+}
+
+.text21 {
+    color: #CED9E6;
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px white;
+}
+
+.text22 {
+    text-align: center;
+    color: #FFF8E8;
 }
